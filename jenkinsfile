@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        SERVER_IP    = '3.109.202.122'
+        SERVER_IP    = '3.111.39.69'
         SSH_CRED_ID  = 'node-app-key'
         TOMCAT_PATH  = '/var/lib/tomcat10/webapps'
         TOMCAT_SVC   = 'tomcat10'
@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/Ankitapansare25/Student-App.git'
+                git branch: 'main', url: 'https://github.com/Ankitapansare25/Student-App.git'
             }
         }
 
