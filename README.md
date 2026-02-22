@@ -118,8 +118,6 @@ http://<EC2_PUBLIC_IP>:8080/
 
 ---
 ## Author
-
----
 Ankita pansare
 
 ---
